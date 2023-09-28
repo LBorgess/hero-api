@@ -1,0 +1,9 @@
+ÚLTIMA ATUALIZAÇÃO
+18/09/2023
+
+
+GET:    http://localhost/hero-api/v1/Api.php?apicall=getheroes
+
+DELETE: http://localhost/heroapi/v1/Api.php?apicall=deletehero&id=1
+
+PUT:    http://localhost/heroapi/v1/Api.php?apicall=createhero
