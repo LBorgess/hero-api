@@ -13,13 +13,14 @@ include_once __DIR__ . '/http.php';
     <!-- LISTA -->
     <div class="row">
         <div class="col">
-            <table class="table table-striped">
+            <table class="table table-dark">
                 <thead>
                     <tr>
                         <th>Name</th>
                         <th>Real name</th>
                         <th>Rating</th>
                         <th>Team Affiliation</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -31,12 +32,18 @@ include_once __DIR__ . '/http.php';
                         <td>$hero[realname]</td>
                         <td>$hero[rating]</td>
                         <td>$hero[teamaffiliation]</td>
+                        <td>
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="#" class="btn btn-outline-warning">Editar</a>
+                                <a href="#" class="btn btn-outline-danger">Apagar</a>
+                            </div>
+                        </td> 
                         </tr>
                     HTML;
-                    endforeach; ?> 
+                    endforeach; ?>
                 </tbody>
             </table>
-            <a href="addhero.php" class="btn btn-primary">Add Hero</a>
+            <a href="addhero.php" class="btn btn-outline-primary">Add Hero</a>
         </div>
     </div>
 </div>
