@@ -11,4 +11,4 @@
 
     <title>Hero API</title>
 </head>
-<body>
+<body class="bg-dark">
