@@ -1,12 +1,7 @@
 <?php
 
-// echo (__DIR__);
-// include_once __DIR__ . '/includes/DbConnect.php';
-// include_once __DIR__ . './includes/DbOperation.php';
-// require_once __DIR__ . '/v1/Api.php';
 include_once  __DIR__ .'/includes/header.php';
 include_once __DIR__ . '/http.php';
-
 
 ?>
 

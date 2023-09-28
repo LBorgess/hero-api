@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @author: Pedro 
+ * @author: pedroramos17 
  */
 
 $opts = array(
