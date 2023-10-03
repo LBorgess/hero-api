@@ -9,7 +9,7 @@ Utilizar a API fornecida para realizar um sistema de CRUD em PHP + MySQL.
 ## Requisitos
 
 - HTML
-- Bootstrap 5
+- Bootstrap 4
 - PHP 8
 - MySQL
 - XAMPP
